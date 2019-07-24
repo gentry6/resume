@@ -82,7 +82,7 @@ var musicUrl = 'https://m8.music.126.net/20190123232934/0f34155137e6ca232332bf65
 $('#audio').attr("src", musicUrl);
 
 function play() {
-    $('#audio').get(0).play();
+    /*  $('#audio').get(0).play(); */
     $('.logo').css('animation', 'music 5s infinite linear');
 }
 
